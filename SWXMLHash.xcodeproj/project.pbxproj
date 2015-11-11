@@ -166,13 +166,14 @@
 			path = SWXMLHashtvOS;
 			sourceTree = "<group>";
 		};
-		8B75576E1BF3C154007D5D75 /* SWXMLHashtvOSTests */ = {
+		8B75576E1BF3C154007D5D75 /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
 				8B75576F1BF3C154007D5D75 /* SWXMLHashtvOSTests.swift */,
 				8B7557711BF3C154007D5D75 /* Info.plist */,
 			);
-			path = SWXMLHashtvOSTests;
+			name = tvOS;
+			path = ../SWXMLHashtvOSTests;
 			sourceTree = "<group>";
 		};
 		CD6083E5196CA106000B4F8D = {
@@ -182,7 +183,6 @@
 				CD6083F1196CA106000B4F8D /* Source */,
 				CD6083FE196CA106000B4F8D /* Tests */,
 				8B7557621BF3C154007D5D75 /* SWXMLHashtvOS */,
-				8B75576E1BF3C154007D5D75 /* SWXMLHashtvOSTests */,
 				CD6083F0196CA106000B4F8D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -221,6 +221,7 @@
 		CD6083FE196CA106000B4F8D /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				8B75576E1BF3C154007D5D75 /* tvOS */,
 				CDC7F33C1B0ACC98006BF6E7 /* OSX */,
 				CDC7F33B1B0ACC90006BF6E7 /* iOS */,
 				CD608401196CA106000B4F8D /* SWXMLHashSpecs.swift */,
