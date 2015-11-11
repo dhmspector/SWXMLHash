@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B7557641BF3C154007D5D75 /* SWXMLHashtvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7557631BF3C154007D5D75 /* SWXMLHashtvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B75576B1BF3C154007D5D75 /* SWXMLHashtvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7557611BF3C154007D5D75 /* SWXMLHashtvOS.framework */; };
+		8B7557701BF3C154007D5D75 /* SWXMLHashtvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B75576F1BF3C154007D5D75 /* SWXMLHashtvOSTests.swift */; };
+		8B7557781BF3C161007D5D75 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD60840B196CA11D000B4F8D /* SWXMLHash.swift */; };
 		CD4B5F3A19E2C42D005C1F33 /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = CD4B5F3919E2C42D005C1F33 /* test.xml */; };
 		CD6083F5196CA106000B4F8D /* SWXMLHash.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6083F4196CA106000B4F8D /* SWXMLHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD6083FB196CA106000B4F8D /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6083EF196CA106000B4F8D /* SWXMLHash.framework */; };
@@ -28,6 +32,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8B75576C1BF3C154007D5D75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6083E6196CA106000B4F8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B7557601BF3C154007D5D75;
+			remoteInfo = SWXMLHashtvOS;
+		};
 		CD6083FC196CA106000B4F8D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CD6083E6196CA106000B4F8D /* Project object */;
@@ -70,6 +81,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8B7557611BF3C154007D5D75 /* SWXMLHashtvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWXMLHashtvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B7557631BF3C154007D5D75 /* SWXMLHashtvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWXMLHashtvOS.h; sourceTree = "<group>"; };
+		8B7557651BF3C154007D5D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B75576A1BF3C154007D5D75 /* SWXMLHashtvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWXMLHashtvOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B75576F1BF3C154007D5D75 /* SWXMLHashtvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWXMLHashtvOSTests.swift; sourceTree = "<group>"; };
+		8B7557711BF3C154007D5D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD4B5F3919E2C42D005C1F33 /* test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = test.xml; path = Tests/test.xml; sourceTree = SOURCE_ROOT; };
 		CD6083EF196CA106000B4F8D /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6083F3196CA106000B4F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +105,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8B75575D1BF3C154007D5D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7557671BF3C154007D5D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B75576B1BF3C154007D5D75 /* SWXMLHashtvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CD6083EB196CA106000B4F8D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,12 +157,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B7557621BF3C154007D5D75 /* SWXMLHashtvOS */ = {
+			isa = PBXGroup;
+			children = (
+				8B7557631BF3C154007D5D75 /* SWXMLHashtvOS.h */,
+				8B7557651BF3C154007D5D75 /* Info.plist */,
+			);
+			path = SWXMLHashtvOS;
+			sourceTree = "<group>";
+		};
+		8B75576E1BF3C154007D5D75 /* SWXMLHashtvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B75576F1BF3C154007D5D75 /* SWXMLHashtvOSTests.swift */,
+				8B7557711BF3C154007D5D75 /* Info.plist */,
+			);
+			path = SWXMLHashtvOSTests;
+			sourceTree = "<group>";
+		};
 		CD6083E5196CA106000B4F8D = {
 			isa = PBXGroup;
 			children = (
 				CDD367381A2584A400807984 /* SWXMLHashPlayground.playground */,
 				CD6083F1196CA106000B4F8D /* Source */,
 				CD6083FE196CA106000B4F8D /* Tests */,
+				8B7557621BF3C154007D5D75 /* SWXMLHashtvOS */,
+				8B75576E1BF3C154007D5D75 /* SWXMLHashtvOSTests */,
 				CD6083F0196CA106000B4F8D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -142,6 +194,8 @@
 				CD6083FA196CA106000B4F8D /* SWXMLHashTests.xctest */,
 				CD9D052C1A757D8B003CCB21 /* SWXMLHash.framework */,
 				CD9D05361A757D8B003CCB21 /* SWXMLHashOSXTests.xctest */,
+				8B7557611BF3C154007D5D75 /* SWXMLHashtvOS.framework */,
+				8B75576A1BF3C154007D5D75 /* SWXMLHashtvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,6 +259,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		8B75575E1BF3C154007D5D75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7557641BF3C154007D5D75 /* SWXMLHashtvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CD6083EC196CA106000B4F8D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,6 +286,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		8B7557601BF3C154007D5D75 /* SWXMLHashtvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7557761BF3C154007D5D75 /* Build configuration list for PBXNativeTarget "SWXMLHashtvOS" */;
+			buildPhases = (
+				8B75575C1BF3C154007D5D75 /* Sources */,
+				8B75575D1BF3C154007D5D75 /* Frameworks */,
+				8B75575E1BF3C154007D5D75 /* Headers */,
+				8B75575F1BF3C154007D5D75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWXMLHashtvOS;
+			productName = SWXMLHashtvOS;
+			productReference = 8B7557611BF3C154007D5D75 /* SWXMLHashtvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B7557691BF3C154007D5D75 /* SWXMLHashtvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7557771BF3C154007D5D75 /* Build configuration list for PBXNativeTarget "SWXMLHashtvOSTests" */;
+			buildPhases = (
+				8B7557661BF3C154007D5D75 /* Sources */,
+				8B7557671BF3C154007D5D75 /* Frameworks */,
+				8B7557681BF3C154007D5D75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B75576D1BF3C154007D5D75 /* PBXTargetDependency */,
+			);
+			name = SWXMLHashtvOSTests;
+			productName = SWXMLHashtvOSTests;
+			productReference = 8B75576A1BF3C154007D5D75 /* SWXMLHashtvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CD6083EE196CA106000B4F8D /* SWXMLHash */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD608405196CA106000B4F8D /* Build configuration list for PBXNativeTarget "SWXMLHash" */;
@@ -304,9 +402,15 @@
 		CD6083E6196CA106000B4F8D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
+					8B7557601BF3C154007D5D75 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					8B7557691BF3C154007D5D75 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
 					CD6083EE196CA106000B4F8D = {
 						CreatedOnToolsVersion = 6.0;
 					};
@@ -336,13 +440,29 @@
 			targets = (
 				CD6083EE196CA106000B4F8D /* SWXMLHash */,
 				CD9D052B1A757D8B003CCB21 /* SWXMLHashOSX */,
+				8B7557601BF3C154007D5D75 /* SWXMLHashtvOS */,
 				CD6083F9196CA106000B4F8D /* SWXMLHashTests */,
 				CD9D05351A757D8B003CCB21 /* SWXMLHashOSXTests */,
+				8B7557691BF3C154007D5D75 /* SWXMLHashtvOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8B75575F1BF3C154007D5D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7557681BF3C154007D5D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CD6083ED196CA106000B4F8D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,6 +496,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8B75575C1BF3C154007D5D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7557781BF3C161007D5D75 /* SWXMLHash.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7557661BF3C154007D5D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B7557701BF3C154007D5D75 /* SWXMLHashtvOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CD6083EA196CA106000B4F8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,6 +547,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8B75576D1BF3C154007D5D75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B7557601BF3C154007D5D75 /* SWXMLHashtvOS */;
+			targetProxy = 8B75576C1BF3C154007D5D75 /* PBXContainerItemProxy */;
+		};
 		CD6083FD196CA106000B4F8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CD6083EE196CA106000B4F8D /* SWXMLHash */;
@@ -424,6 +565,78 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		8B7557721BF3C154007D5D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SWXMLHashtvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = drmohundro.SWXMLHash.SWXMLHashtvOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		8B7557731BF3C154007D5D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SWXMLHashtvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = drmohundro.SWXMLHash.SWXMLHashtvOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		8B7557741BF3C154007D5D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SWXMLHashtvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = drmohundro.SWXMLHash.SWXMLHashtvOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		8B7557751BF3C154007D5D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SWXMLHashtvOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = drmohundro.SWXMLHash.SWXMLHashtvOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 		CD608403196CA106000B4F8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -682,6 +895,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8B7557761BF3C154007D5D75 /* Build configuration list for PBXNativeTarget "SWXMLHashtvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B7557721BF3C154007D5D75 /* Debug */,
+				8B7557731BF3C154007D5D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B7557771BF3C154007D5D75 /* Build configuration list for PBXNativeTarget "SWXMLHashtvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B7557741BF3C154007D5D75 /* Debug */,
+				8B7557751BF3C154007D5D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		CD6083E9196CA106000B4F8D /* Build configuration list for PBXProject "SWXMLHash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
